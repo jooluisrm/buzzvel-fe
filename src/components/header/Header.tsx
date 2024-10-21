@@ -5,11 +5,16 @@ import Left from "@/app/assets/Left.png";
 import { IoHeadsetOutline } from 'react-icons/io5';
 import { Button } from '@/components/reciclagem/Button';
 import { MenuCell } from './MenuCell';
+import { useState } from 'react';
 
 export const Header = () => {
 
-    const mostrarMenu = () => {
+    const [menuLateral, setMenuLateral] = useState(false);
 
+    const mostrarMenu = () => {
+        if (!menuLateral) {
+            setMenuLateral(true);
+        }
     }
 
     return (
@@ -36,7 +41,7 @@ export const Header = () => {
                         </div>
                         <p className='text-[#0369A1]'>555 818 282</p>
                     </div>
-                    <Button color='#581C87' text='Request a Quote'/>
+                    <Button color='#581C87' text='Request a Quote' />
 
                 </div>
                 <div onClick={mostrarMenu} className='flex flex-col gap-[3px] cursor-pointer lg:hidden'>
@@ -44,7 +49,7 @@ export const Header = () => {
                     <div className='bg-[#0f172a] w-5 h-1'></div>
                     <div className='bg-[#0f172a] w-5 h-1'></div>
                 </div>
-                <MenuCell />
+                <MenuCell showMenu={menuLateral} setShowMenu={setMenuLateral}/>
             </div>
 
         </header>
