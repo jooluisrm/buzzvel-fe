@@ -40,7 +40,7 @@ export const Section3 = () => {
                 <Image width={599.56} height={523} alt="roxo" src={roxo} className="absolute z-[-2] left-[-70px]" />
                 <div className="">
                     <Image width={220} height={471.43} alt="cell" src={cell} className="translate-y-[90px] translate-x-[70px]" />
-                    <Image width={110} alt="item4" src={add} className="absolute z-10 translate-y-[-235px] translate-x-[235px]" />
+                    <Image width={110} alt="item4" src={add} className="absolute z-auto translate-y-[-235px] translate-x-[235px]" />
                 </div>
 
             </div>
