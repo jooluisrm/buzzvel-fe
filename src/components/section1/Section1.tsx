@@ -14,8 +14,6 @@ export const Section1 = () => {
                 <MainSection1 />
             </div>
 
-
-
         </section>
     );
 }

@@ -12,7 +12,7 @@ export const Button = ({ color, text }: Props) => {
             className="text-[24px] font-bold border-[2px] rounded-full py-[20px] px-[24px] flex items-center justify-center gap-5"
         >
             {text}
-            <FaArrowRight />
+            <FaArrowRight color={`${color}`}/>
         </button>
     );
 }
