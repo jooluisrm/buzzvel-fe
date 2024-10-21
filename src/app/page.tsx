@@ -1,11 +1,11 @@
-import { Header } from "@/components/section1/header/Header";
+import { Header } from "@/components/header/Header";
 import { Section1 } from "@/components/section1/Section1";
 import { Section2 } from "@/components/section2/Section2";
 import { Section3 } from "@/components/section3/Section3";
 
 const Page = () => {
     return (
-        <div>
+        <div className="">
             <Header />
             <Section1 />
             <Section2 />

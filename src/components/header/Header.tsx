@@ -1,9 +1,17 @@
+"use client"
+
 import Image from 'next/image';
-import Left from "../../../app/assets/Left.png";
+import Left from "@/app/assets/Left.png";
 import { IoHeadsetOutline } from 'react-icons/io5';
 import { Button } from '@/components/reciclagem/Button';
+import { MenuCell } from './MenuCell';
 
 export const Header = () => {
+
+    const mostrarMenu = () => {
+
+    }
+
     return (
         <header
             className='flex items-center justify-between py-2 px-4 absolute top-0 left-0 right-0 z-10 lg:px-20 lg:py-6'
@@ -31,11 +39,12 @@ export const Header = () => {
                     <Button color='#581C87' text='Request a Quote'/>
 
                 </div>
-                <div className='flex flex-col gap-[2px] cursor-pointer lg:hidden'>
+                <div onClick={mostrarMenu} className='flex flex-col gap-[3px] cursor-pointer lg:hidden'>
                     <div className='bg-[#0f172a] w-5 h-1'></div>
                     <div className='bg-[#0f172a] w-5 h-1'></div>
                     <div className='bg-[#0f172a] w-5 h-1'></div>
                 </div>
+                <MenuCell />
             </div>
 
         </header>

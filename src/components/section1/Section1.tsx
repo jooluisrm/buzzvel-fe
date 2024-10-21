@@ -1,6 +1,6 @@
 import Image from "next/image";
 import img from "@/app/assets/Image.png"
-import { Header } from "./header/Header";
+import { Header } from "../header/Header";
 import React from 'react';
 import { MainSection1 } from "./Main";
 

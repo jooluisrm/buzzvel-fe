@@ -6,5 +6,9 @@
     color: #0F172A;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 
 
