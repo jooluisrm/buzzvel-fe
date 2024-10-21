@@ -22,6 +22,6 @@ export const Section2 = () => {
             </div>
             <Image width={249.86} height={250.22} alt="fundo laranja" src={laranja} className="absolute z-[-1] left-[-100px] translate-y-[150px]"/>
             <Image width={209.74} height={210.1} alt="fundo roxo" src={roxo} className="absolute z-[-1] right-[-180px] translate-y-[180px]" />
-        </section>
+        </section>        
     );
 }
