@@ -7,8 +7,8 @@ import { TitleSection } from "../reciclagem/TitleSection";
 
 export const Section4 = () => {
     return (
-        <section className="lg:mt-32">
-                <div className="flex flex-col gap-6 mb-16">
+        <section className="py-12 px-4 md:p-20 md:grid md:grid-cols-2 lg:flex">
+                <div className="flex flex-col gap-6 mb-16 lg:flex-[2]">
                     <TitleSection
                         h2="System features"
                         h1="Powerful features"
@@ -33,7 +33,7 @@ export const Section4 = () => {
                         />
                     </GridSection>
                 </div>
-                <div>
+                <div className="lg:flex-[1]">
                     <Image alt="fundo celular" src={fundoCelular} className="absolute right-0 md:hidden"/>
                     <Image alt="cellCelular" src={cellCelular} className="absolute right-16 translate-y-6 md:hidden"/>
 
