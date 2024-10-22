@@ -1,6 +1,9 @@
 import Image from "next/image";
 import fundoCelular from "@/app/assets/Rectangle 16 (1).png";
 import cellCelular from "@/app/assets/Phone2.png";
+import fundoPc from "@/app/assets/Rectangle 16 (1) pc.png";
+import cellPc from "@/app/assets/Phone2 pc.png";
+import framePc from "@/app/assets/frame pc.png";
 import { GridItem } from "../reciclagem/Grid";
 import { GridSection } from "../reciclagem/GridSection";
 import { TitleSection } from "../reciclagem/TitleSection";
@@ -34,11 +37,12 @@ export const Section4 = () => {
                     </GridSection>
                 </div>
                 <div className="lg:flex-[1]">
-                    <Image alt="fundo celular" src={fundoCelular} className="absolute right-0 md:hidden"/>
-                    <Image alt="cellCelular" src={cellCelular} className="absolute right-16 translate-y-6 md:hidden"/>
+                    <Image alt="fundo celular" src={fundoCelular} className="absolute right-0 lg:hidden"/>
+                    <Image alt="cellCelular" src={cellCelular} className="absolute right-16 translate-y-6 lg:hidden"/>
 
-                    <Image alt="fundo celular" src={fundoCelular} className="hidden absolute right-0 md:block"/>
-                    <Image alt="cellCelular" src={cellCelular} className="hidden absolute right-16 translate-y-6 md:block"/>
+                    <Image width={400} alt="fundo celular" src={fundoPc} className="hidden absolute right-0 lg:block"/>
+                    <Image width={300} alt="cellCelular" src={cellPc} className="hidden absolute right-16 translate-y-28 lg:block"/>
+                    <Image width={80} alt="fundo celular" src={framePc} className="hidden absolute transform translate-x-[330px] translate-y-[495px] lg:block"/>
                 </div>
             
         </section>
