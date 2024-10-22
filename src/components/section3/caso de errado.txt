@@ -1,0 +1,7 @@
+<div className="mb-32">
+                <Image width={599.56} height={523} alt="roxo" src={roxo} className="absolute z-[-2] left-[-70px] md:w-[400px] lg:w-[600px]" />
+                <div className="">
+                    <Image width={220} height={471.43} alt="cell" src={cell} className="translate-y-[90px] translate-x-[70px] lg:w-[300px] lg:translate-x-[190px]" />
+                    <Image width={110} alt="item4" src={add} className="absolute z-auto translate-y-[-235px] translate-x-[235px] lg:translate-x-[420px] lg:translate-y-[-345px] lg:w-[140px]" />
+                </div>
+            </div>
