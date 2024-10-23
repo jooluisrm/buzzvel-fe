@@ -10,8 +10,8 @@ export const Section6 = () => {
     return (
         <section className="bg-[#581C87] py-12 px-4 relative md:py-20 md:pl-20 lg:bg-[#7E22CE]">
             
-            <div className="relative z-10 pb-16 flex flex-col gap-5 lg:flex-row">
-                <div className="max-w-[894px]">
+            <div className="relative z-10 pb-16 flex flex-col gap-5 lg:flex-row lg:justify-around lg:items-center">
+                <div className="max-w-[894px] lg:pl-28">
                     <TitleSection
                         bg="roxo"
                         h1="All the power that you need for your house is now available"
