@@ -13,6 +13,7 @@ export const Section4 = () => {
         <section className="py-12 px-4 md:p-20 md:grid md:grid-cols-2 lg:flex">
                 <div className="flex flex-col gap-6 mb-16 lg:flex-[2]">
                     <TitleSection
+                        bg="branco"
                         h2="System features"
                         h1="Powerful features"
                         p="Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed."
