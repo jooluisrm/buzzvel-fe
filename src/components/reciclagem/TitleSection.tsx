@@ -24,6 +24,7 @@ export const TitleSection = ({h2, h1, p, bg}: Props) => {
             </h1>
             <p className={`text-[16px] leading-[22.4px] md:text-[20px] md:leading-[36px]
                     ${bg === "roxo" ? `text-white` : `text-[#0F172A]`}
+                    max-w-[814px]
                 `}>
                 {p}
             </p>

@@ -3,7 +3,7 @@ import avatar from "@/app/assets/User Thumb.png"
 
 export const Mensagem = () => {
     return (
-        <div className="bg-white p-8 pt-28 mt-16 flex flex-col gap-4 rounded-lg">
+        <div className="bg-white p-8 pt-28 mt-16 flex flex-col gap-4 rounded-lg max-w-[364px] min-w-[343px]">
             <div>
                 <p className="text-[16px] leading-[22.4px]">
                     Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla.
