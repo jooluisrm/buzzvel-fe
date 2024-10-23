@@ -10,5 +10,7 @@ body {
     overflow-x: hidden;
 }
 
-
-
+.scroll-container {
+    @apply transition-all duration-300 ease-in-out;
+}
+  

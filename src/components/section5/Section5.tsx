@@ -5,6 +5,7 @@ import { Button } from "../reciclagem/Button";
 import { Mensagem } from "../reciclagem/Mensagem";
 import { SetaButton } from "../reciclagem/SetaButton";
 import { TitleSection } from "../reciclagem/TitleSection";
+import { dadosComentarios } from "@/data/DadosComentarios";
 
 export const Section5 = () => {
     const scrollContainer = useRef<HTMLDivElement>(null);
@@ -12,12 +13,12 @@ export const Section5 = () => {
 
     const scrollLeft = () => {
         if(scrollContainer.current) {
-            scrollContainer.current.scrollLeft -= 350;
+            scrollContainer.current.scrollLeft -= 364;
         }
     }
     const scrollRight = () => {
         if(scrollContainer.current) {
-            scrollContainer.current.scrollLeft += 350;
+            scrollContainer.current.scrollLeft += 364;
         }
     }
 
@@ -34,12 +35,10 @@ export const Section5 = () => {
             </div>
 
             <div className="flex flex-col items-center lg:items-start">
-                <div className="flex gap-6  w-full overflow-x-hidden" ref={scrollContainer}>
-                    <Mensagem />
-                    <Mensagem />
-                    <Mensagem />
-                    <Mensagem />
-                    <Mensagem />
+                <div className="flex gap-6  w-full overflow-x-hidden transition-all scroll-smooth" ref={scrollContainer}>
+                    {dadosComentarios.map((item, index) => (
+                        <Mensagem item={item} key={index}/>
+                    ))}
                 </div>
 
                 <div className="flex gap-6 mt-16">

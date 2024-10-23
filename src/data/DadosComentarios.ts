@@ -31,4 +31,4 @@ export const dadosComentarios: TypeDadosComentarios[] = [
         name: "Cameron Williamson",
         kwh: "12KWh"
     }
-]
+];
