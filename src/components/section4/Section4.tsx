@@ -43,7 +43,7 @@ export const Section4 = () => {
 
                     <Image width={400} alt="fundo celular" src={fundoPc} className="hidden absolute right-0 lg:block"/>
                     <Image width={300} alt="cellCelular" src={cellPc} className="hidden absolute right-16 translate-y-28 lg:block"/>
-                    <Image width={80} alt="fundo celular" src={framePc} className="hidden absolute transform translate-x-[330px] translate-y-[495px] lg:block"/>
+                    <Image width={80} alt="fundo celular" src={framePc} className="hidden absolute transform translate-x-[350px] 2xl:translate-x-[535px] translate-y-[495px] lg:block"/>
                 </div>
             
         </section>

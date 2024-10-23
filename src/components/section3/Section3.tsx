@@ -16,7 +16,7 @@ export const Section3 = () => {
             <div className="mb-[480px] md:flex-[1] lg:flex-[1]">
                 <Image alt="fundo Celular" src={fundoCelular} className="absolute left-0 lg:hidden"/>
                 <Image alt="phone Celular" src={phoneCelular} className="absolute left-14 lg:hidden"/>
-                <Image alt="frame Celular" src={frameCell} className="absolute transform translate-y-[147px] translate-x-[217px] lg:hidden"/>
+                <Image alt="frame Celular" src={frameCell} className="absolute transform translate-y-[148px] translate-x-[214px] lg:hidden"/>
                 
                 <Image width={400} alt="fundo pc" src={fundoPc} className="hidden absolute left-0 md:hidden lg:block"/>
                 <Image width={300} alt="phone Pc" src={phonePc} className="hidden absolute left-14 lg:block"/>
