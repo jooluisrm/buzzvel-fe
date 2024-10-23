@@ -1,5 +1,5 @@
 import Image from "next/image";
-import avatar from "@/app/assets/User Thumb.png"
+import avatar from "@/app/assets/Avatar/avatar1.png";
 
 export const Mensagem = () => {
     return (
