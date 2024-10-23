@@ -24,7 +24,7 @@ export const Section5 = () => {
 
     return (
         <section className="bg-[#581C87] mt-[550px] py-12 px-4 md:mt-0 md:p-20">
-            <div className="flex flex-col lg:flex-row lg:justify-between">
+            <div className="flex flex-col items-center md:items-start gap-5 lg:flex-row lg:justify-between">
                 <TitleSection
                     bg="roxo"
                     h1="Make something awesome" h2="Join other Sun harvesters"

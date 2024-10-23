@@ -22,7 +22,7 @@ export const Section3 = () => {
                 <Image width={300} alt="phone Pc" src={phonePc} className="hidden absolute left-14 lg:block"/>
                 <Image width={150} alt="frame pc" src={framePc} className="hidden absolute transform translate-y-[180px] translate-x-[260px] lg:block"/>
             </div>
-            <div className="flex flex-col gap-6 mb-16 md:flex-[1] lg:flex-[2]">
+            <div className="flex flex-col gap-10 mb-16 md:flex-[1] lg:flex-[2]">
                 <TitleSection bg="branco" h2="Services" h1="Personalized services" p="Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed."/>
                 <GridSection>
                     <GridItem

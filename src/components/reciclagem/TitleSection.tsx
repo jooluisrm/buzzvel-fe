@@ -1,13 +1,13 @@
 type Props = {
     h2: string;
     h1: string;
-    p: string;
+    p?: string;
     bg: 'roxo' | 'branco';
 }
 
 export const TitleSection = ({h2, h1, p, bg}: Props) => {
     return (
-        <div className="text-center flex flex-col gap-6 mb-12 md:text-start">
+        <div className="text-center flex flex-col gap-6 md:text-start">
             <h2
                 className={`text-[16px] font-medium leading-[17.6px] md:text-[20px] md:leading-[22px]
                     ${bg === "roxo" ? `text-[#FCD34D]` : `text-[#D97706]`}
