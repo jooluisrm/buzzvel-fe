@@ -1,5 +1,6 @@
 import { Button } from "../reciclagem/Button";
 import { Mensagem } from "../reciclagem/Mensagem";
+import { SetaButton } from "../reciclagem/SetaButton";
 import { TitleSection } from "../reciclagem/TitleSection";
 
 export const Section5 = () => {
@@ -14,8 +15,12 @@ export const Section5 = () => {
                 <Button text="Request a Quote" color="#FCD34D" />
             </div>
 
-            <div>
+            <div className="flex flex-col items-center">
                 <Mensagem />
+                <div className="flex gap-6 mt-16">
+                    <SetaButton seta="🡠" />
+                    <SetaButton seta="🡢" />
+                </div>
             </div>
         </section>
     );
