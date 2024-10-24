@@ -10,7 +10,7 @@ import { TitleSection } from "../reciclagem/TitleSection";
 
 export const Section4 = () => {
     return (
-        <section className="py-12 px-4 md:p-20 md:grid md:grid-cols-2 lg:flex">
+        <section className="py-12 px-4 md:p-20 md:grid md:grid-cols-2 lg:flex md:mb-20">
                 <div className="flex flex-col gap-10 mb-16 lg:flex-[2]">
                     <TitleSection
                         bg="branco"
