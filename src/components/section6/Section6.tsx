@@ -8,7 +8,7 @@ import { TitleSection } from "../reciclagem/TitleSection";
 
 export const Section6 = () => {
     return (
-        <section className="bg-[#581C87] py-12 px-4 relative md:py-20 md:px-20  lg:bg-[#7E22CE]">
+        <section role="region" aria-labelledby="section6-title" className="bg-[#581C87] py-12 px-4 relative md:py-20 md:px-20  lg:bg-[#7E22CE]">
 
             <div className="relative z-10 pb-16 flex flex-col gap-5 lg:flex-row lg:justify-around lg:items-center">
                 <div className="max-w-[894px] lg:pl-28">
@@ -24,12 +24,12 @@ export const Section6 = () => {
                 </div>
             </div>
 
-            <Image alt="notebook cell" src={macbookCell} className="mx-auto relative z-10 lg:hidden" />
+            <Image alt="Notebook exibindo em dispositivo móvel" src={macbookCell} className="mx-auto relative z-10 lg:hidden" />
 
-            <Image alt="notbook pc" src={macbookPc} className="max-w-[816px] max-h-[540px] mx-auto hidden relative z-10 lg:block" />
+            <Image alt="Notebook exibindo em um dispositivo desktop" src={macbookPc} className="max-w-[816px] max-h-[540px] mx-auto hidden relative z-10 lg:block" />
 
-            <Image alt="elipse cell" src={roxoCell} className="absolute left-0 bottom-0 lg:hidden" />
-            <Image width={782} alt="elipse pc" src={roxoPc} className="hidden absolute right-0 top-0 lg:block" />
+            <Image alt="Elipse roxa para design estético na versão mobile" src={roxoCell} className="absolute left-0 bottom-0 lg:hidden" />
+            <Image width={782} alt="Elipse roxa para design estético na versão desktop" src={roxoPc} className="hidden absolute right-0 top-0 lg:block" />
         </section>
     );
 }

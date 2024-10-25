@@ -23,7 +23,7 @@ export const Section5 = () => {
     }
 
     return (
-        <section className="bg-[#581C87] mt-[550px] py-12 px-4 md:mt-0 md:p-20">
+        <section role="region" aria-labelledby="section5-title" className="bg-[#581C87] mt-[550px] py-12 px-4 md:mt-0 md:p-20">
             <div className="flex flex-col items-center md:items-start gap-5 lg:flex-row lg:justify-between">
                 <TitleSection
                     bg="roxo"
@@ -35,15 +35,15 @@ export const Section5 = () => {
             </div>
 
             <div className="flex flex-col items-center lg:items-start">
-                <div className="flex gap-6  w-full overflow-x-hidden transition-all scroll-smooth" ref={scrollContainer}>
+                <div className="flex gap-6  w-full overflow-x-hidden transition-all scroll-smooth" aria-live="polite" aria-atomic="true" ref={scrollContainer}>
                     {dadosComentarios.map((item, index) => (
                         <Mensagem item={item} key={index}/>
                     ))}
                 </div>
 
                 <div className="flex gap-6 mt-16">
-                    <SetaButton seta="🡠" onClick={scrollLeft}/>
-                    <SetaButton seta="🡢" onClick={scrollRight}/>
+                    <SetaButton seta="🡠" onClick={scrollLeft} aria-label="Scroll left"/>
+                    <SetaButton seta="🡢" onClick={scrollRight} aria-label="Scroll right"/>
                 </div>
             </div>
         </section>
