@@ -6,7 +6,7 @@ import roxo from "@/app/assets/Ellipse 15.png";
 
 export const Section2 = () => {
     return (
-        <section className="flex flex-col items-center text-center py-12 px-4 gap-6">
+        <section aria-labelledby="section2-title" className="flex flex-col items-center text-center py-12 px-4 gap-6">
             <div className="flex flex-col gap-6">
                 <div className="flex flex-col gap-2">
                     <h2 className="text-[16px] text-[#D97706] font-medium leading-[17.6px] md:text-[20px] md:leading-[22px]">No more waste</h2>
