@@ -22,13 +22,13 @@ export const Header = () => {
             className='flex items-center justify-between py-2 px-4 absolute top-0 left-0 right-0 z-10 lg:px-20 lg:py-6'
         >
             <div className='flex items-center gap-[38px]'>
-                <h1><Image src={Left} alt="Left" width={81} height={36} /></h1>
-                <nav className='hidden lg:block'>
+                <h1><a href="/"><Image src={Left} alt="Logotipo da empresa" width={81} height={36} /></a></h1>
+                <nav className='hidden lg:block' aria-label="Main Navigation">
                     <ul className='flex gap-4 font-medium text-[16px] leading-[24px]'>
-                        <li className='cursor-pointer'>Products</li>
-                        <li className='cursor-pointer'>Solutions</li>
-                        <li className='cursor-pointer'>Services</li>
-                        <li className='cursor-pointer'>Configure</li>
+                        <li className='cursor-pointer'><a href="/products">Products</a></li>
+                        <li className='cursor-pointer'><a href="/solutions">Solutions</a></li>
+                        <li className='cursor-pointer'><a href="/services">Services</a></li>
+                        <li className='cursor-pointer'><a href="/configure">Configure</a></li>
                     </ul>
                 </nav>
             </div>
@@ -44,7 +44,7 @@ export const Header = () => {
                     <Button color='#581C87' text='Request a Quote' />
 
                 </div>
-                <div onClick={mostrarMenu} className='flex flex-col gap-[3px] cursor-pointer lg:hidden'>
+                <div onClick={mostrarMenu} className='flex flex-col gap-[3px] cursor-pointer lg:hidden' aria-controls="menu-cell" aria-label="Toggle Menu">
                     <div className='bg-[#0f172a] w-5 h-1'></div>
                     <div className='bg-[#0f172a] w-5 h-1'></div>
                     <div className='bg-[#0f172a] w-5 h-1'></div>
