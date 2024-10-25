@@ -22,8 +22,8 @@ export const Section2 = () => {
                 <Image alt="desktop" src={img} className="md:hidden"/>
                 <Image alt="desktop2" src={img2} className="hidden md:block p-20 pt-0"/>
             </div>
-            <Image width={249.86} height={250.22} alt="fundo laranja" src={laranja} className="absolute z-[-1] left-[-100px] translate-y-[180px] md:w-[300px] md:left-[0px]"/>
-            <Image width={209.74} height={210.1} alt="fundo roxo" src={roxo} className="absolute z-[-1] right-[-170px] translate-y-[180px] md:w-[300px] md:right-0 md:translate-y-[250px]" />
+            <Image width={249.86} height={250.22} alt="fundo laranja" src={laranja} className="absolute z-[-1] left-[-100px] translate-y-[180px] md:w-[300px] md:left-[0px] 2xl:w-[510px]"/>
+            <Image width={209.74} height={210.1} alt="fundo roxo" src={roxo} className="absolute z-[-1] right-[-170px] translate-y-[180px] md:w-[300px] md:right-0 md:translate-y-[280px] 2xl:w-[596px]" />
         </section>        
     );
 }
