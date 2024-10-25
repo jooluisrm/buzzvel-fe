@@ -10,7 +10,7 @@ import { TitleSection } from "../reciclagem/TitleSection";
 
 export const Section4 = () => {
     return (
-        <section className="py-12 px-4 md:p-20 md:grid md:grid-cols-2 lg:flex md:mb-32">
+        <section role="region" aria-labelledby="section4-title" className="py-12 px-4 md:p-20 md:grid md:grid-cols-2 lg:flex md:mb-32">
                 <div className="flex flex-col gap-10 mb-16 lg:flex-[2]">
                     <TitleSection
                         bg="branco"
@@ -38,12 +38,12 @@ export const Section4 = () => {
                     </GridSection>
                 </div>
                 <div className="lg:flex-[1]">
-                    <Image alt="fundo celular" src={fundoCelular} className="absolute right-0 lg:hidden"/>
-                    <Image alt="cellCelular" src={cellCelular} className="absolute right-16 translate-y-6 lg:hidden"/>
+                    <Image alt="Fundo visual de celular" src={fundoCelular} className="absolute right-0 lg:hidden"/>
+                    <Image alt="Celular exibindo funcionalidades do sistema" src={cellCelular} className="absolute right-16 translate-y-6 lg:hidden"/>
 
-                    <Image width={400} alt="fundo celular" src={fundoPc} className="hidden absolute right-0 lg:block"/>
-                    <Image width={300} alt="cellCelular" src={cellPc} className="hidden absolute right-16 translate-y-28 lg:block"/>
-                    <Image width={80} alt="fundo celular" src={framePc} className="hidden absolute transform translate-x-[350px] 2xl:translate-x-[535px] translate-y-[495px] lg:block"/>
+                    <Image width={400} alt="Fundo visual para apresentação em desktop" src={fundoPc} className="hidden absolute right-0 lg:block"/>
+                    <Image width={300} alt="Celular exibindo funcionalidades do sistema em desktop" src={cellPc} className="hidden absolute right-16 translate-y-28 lg:block"/>
+                    <Image width={80} alt="Moldura decorativa para o celular em desktop" src={framePc} className="hidden absolute transform translate-x-[350px] 2xl:translate-x-[535px] translate-y-[495px] lg:block"/>
                 </div>
             
         </section>
