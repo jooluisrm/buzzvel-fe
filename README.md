@@ -62,7 +62,7 @@ Após iniciar o servidor, você poderá acessar a aplicação no navegador pelo 
 ---
 
 ## 📞 Suporte
-Caso tenha dúvidas ou problemas durante a execução, sinta-se à vontade para abrir uma issue ou entrar em contato pelo email [seuemail@dominio.com](mailto:seuemail@dominio.com).
+Caso tenha dúvidas ou problemas durante a execução, sinta-se à vontade para abrir uma issue ou entrar em contato pelo email [joaoluis4633@gmail.com](mailto:joaoluis4633@gmail.com).
 
 ---
 
